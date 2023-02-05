@@ -1,0 +1,20 @@
+:root {
+    --color1:#025939;
+    --color2:#027373;
+    --color3:#F2BF27;
+    --color4:#044BD9;
+    --color5:#F20544;
+
+}
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
+}
+h1, h2, p {
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px black;
+}

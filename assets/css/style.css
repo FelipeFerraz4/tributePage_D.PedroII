@@ -15,7 +15,18 @@ header {
     justify-content: center;
     background-color: var(--color2);
 }
-h1, h2, p {
+.title {
     text-align: center;
     text-shadow: 0.5px 0.5px 1px black;
+}
+.container {
+       display: flex;
+       flex-direction: row;
+}
+.synthesis_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    text-align: justify;
 }

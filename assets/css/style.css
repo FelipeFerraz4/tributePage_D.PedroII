@@ -4,7 +4,6 @@
     --color3:#F2BF27;
     --color4:#044BD9;
     --color5:#F20544;
-
 }
 body {
     background-color: #027373;
@@ -25,6 +24,7 @@ header {
 }
 main {
     background-color: white;
+    max-width: 1200px;
 }
 .container {
        display: flex;
@@ -37,8 +37,21 @@ main {
     margin: 20px;
     text-align: justify;
 }
-.summary {
+.problems {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
+}
+.problems_title {
+    font-size: 25px;
+}
+.problems_text {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.problems_text1 {
+    margin: 10px;
+    flex: 1;
 }

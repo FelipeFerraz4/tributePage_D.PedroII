@@ -53,5 +53,25 @@ main {
 }
 .problems_text1 {
     margin: 10px;
+    text-align: justify;
     flex: 1;
+}
+.problems_text1_guerras {
+    padding: 4px;
+}
+.problems_text1_escravidao li {
+    padding: 2.6px;
+}
+footer {
+    background-color: #027373;
+    padding-top: 5px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer h5 {
+    margin: 0px;
+    padding-left: 10px;
 }

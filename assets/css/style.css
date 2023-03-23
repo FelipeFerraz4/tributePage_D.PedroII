@@ -70,8 +70,27 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
+    text-shadow: 0.2px 1px 1px black;
 }
 footer h5 {
     margin: 0px;
     padding-left: 10px;
+}
+
+@media (max-width:800px) {
+        img {
+            width: 300px;
+        }
+}
+
+@media (max-width:610px) {
+    .container {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+    .problems_text {
+        flex-direction: column;
+    }
 }
